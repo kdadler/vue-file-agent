@@ -1,3 +1,4 @@
-import Vue from 'vue';
-declare const _default: import("vue/types/vue").ExtendedVue<Vue, unknown, unknown, unknown, Record<"value" | "axis" | "appendTo", any>>;
+declare const _default: {
+    props: string[];
+};
 export default _default;

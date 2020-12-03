@@ -45,6 +45,7 @@ declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
         collection: any;
     }): void;
 }, {
+    withCredentials: boolean | undefined;
     canAddMore: boolean;
     helpTextComputed: string;
     isDeletable: boolean;

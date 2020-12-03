@@ -121,10 +121,9 @@
 @import '../scss/vue-file-agent.scss';
 </style>
 <script lang="ts">
-import Vue from 'vue';
 import mixin from './vue-file-agent-mixin';
 
-export default Vue.extend({
+export default {
   mixins: [mixin],
-});
+};
 </script>

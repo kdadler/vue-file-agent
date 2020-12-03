@@ -107,7 +107,7 @@
 import Vue from 'vue';
 import mixin from './vue-file-preview-mixin';
 
-export default Vue.extend({
+export default {
   mixins: [mixin],
-});
+};
 </script>
